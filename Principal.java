@@ -1,8 +1,11 @@
-package aula1;
+package aula3;
 
 public class Principal {
 
 	public static void main(String[] args) {
-		System.out.println("Olá mundo");
+		
+		Gato g1 = new Gato();
+		g1.emitirSom();
+		
 	}
 }
